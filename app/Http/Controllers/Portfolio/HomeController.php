@@ -8,7 +8,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-//        return view('portfolio.master');
-        return view('profile_first');
+        return view('portfolio.master');
     }
 }
