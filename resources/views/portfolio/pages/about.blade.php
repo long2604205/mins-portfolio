@@ -119,11 +119,6 @@
                             <h5>Build</h5>
                             <p>Athletic</p>
                         </div>
-                        <div class="stat-item fade-in">
-                            <i class="bi bi-globe"></i>
-                            <h5>Ethnicity</h5>
-                            <p>Caucasian</p>
-                        </div>
                     </div>
                 </div>
             </div>

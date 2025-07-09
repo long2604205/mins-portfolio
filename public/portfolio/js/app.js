@@ -335,3 +335,17 @@ function scrollToNewItems(container) {
         }, 600);
     }
 }
+// Hiện nút khi cuộn xuống 200px
+window.onscroll = function () {
+    const btn = document.getElementById("goTopBtn");
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        btn.style.display = "block";
+    } else {
+        btn.style.display = "none";
+    }
+};
+
+// Scroll lên đầu
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
